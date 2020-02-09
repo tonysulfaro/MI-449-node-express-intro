@@ -10,14 +10,14 @@
 
 <body>
 
-
-
-  <% Object.keys(articles).forEach(function (id) { %>
-  <article>
-    <h2><%= articles[id].title %></h2>
-    <p><%= articles[id].content %></p>
-  </article>
-  <% }) %>
+  <div class="container">
+    <% Object.keys(articles).forEach(function (id) { %>
+    <article>
+      <h2><%= articles[id].title %></h2>
+      <p><%= articles[id].content %></p>
+    </article>
+    <% }) %>
+  </div>
 
 </body>
 
